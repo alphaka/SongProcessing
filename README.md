@@ -2,17 +2,17 @@
 Processing A List Of Top Streamed Songs From Spotify
 
 
-This program is object oriented and is composed of three classes.
+This program is object-oriented and is composed of three classes.
 
 *The first class CSVReader.java has a constructor that takes the path of the Dataset to be read, 
 the number of rows and columns of the new 2D array we want the data to be stored in.
-CSVReader has a method called Data() which return the stored data in a new 2D array that has
+CSVReader has a method called Data() which returns the stored data in a new 2D array that has
 the position, the title of a song,  an artist's name,  and the number of times that song has been streamed.
 
-*The second class Report.java has a constructor that take the stored 2D array, and the number of rows it has.
+*The second class Report.java has a constructor that takes the stored 2D array, and the number of rows it has.
 The class has a method called ArtistCountNStreamedTime() that return another 2D array, but this time the array
 has the name of an artist, counts the number of times s/he appeared from the 2D array passed to Report's
-constructor and counts as well the number of times his/her song has been streamed.
+constructor, and counts as well the number of times his/her song has been streamed.
 
 *Finally, we have the main that have three methods.
 - The first method 'main' has the object 'data' which is an  instance of CSVReader, then 'data' is used to
